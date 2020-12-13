@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAEHzqVk5ePijmd45lwaH9Wp1xT7glx9qw",
+    authDomain: "multiplayer-car-racing-g-4e7fe.firebaseapp.com",
+    databaseURL: "https://multiplayer-car-racing-g-4e7fe-default-rtdb.firebaseio.com",
+    projectId: "multiplayer-car-racing-g-4e7fe",
+    storageBucket: "multiplayer-car-racing-g-4e7fe.appspot.com",
+    messagingSenderId: "290041848267",
+    appId: "1:290041848267:web:0abad73c7f4c7e4a9a164e"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="files/Form.js"></script>
+<script src="files/Game.js"></script>
+<script src="files/Player.js"></script>
+
+    
+      
+    
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
